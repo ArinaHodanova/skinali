@@ -1,0 +1,25 @@
+.portfolio {
+  &-tabs__nav {
+    margin: 0 0 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  &-tabs-item {
+    padding-right: 15px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+.portfolio-tab {
+  display: none; }
+.portfolio-tab.is-active {
+  display: block; 
+}
+.tabs-nav .is-active {
+  color: #507fe1;
+}

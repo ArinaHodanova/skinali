@@ -1,0 +1,27 @@
+.hero {
+  margin-top: 5rem;
+  background: #f1f1f1 url(../img/hero/main-bg.jpg) 59% top/cover;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 270px;
+  &_title {
+    font-size: 30px;
+    color: #252525;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  &_subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 67px;
+    display: block;
+  }
+}
+
+@media (max-width: 991px) { 
+  .hero {
+    background-size: cover;
+    background-position: top left 30%;
+  }
+}
